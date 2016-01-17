@@ -33,6 +33,7 @@ package model
 			//trace(e.info)
 			var _sign:String = e.info;
 			var _type:String = typeKey(_sign) ;
+			trace(_sign+'  '+_type);
 			if (_type == 'C') {// кнопка очистить
 				if (board == '0' && act == '') return;
 				if (board != '0' && act != '' && prev_key == 'num') {
