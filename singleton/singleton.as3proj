@@ -4,11 +4,11 @@
   <output>
     <movie outputType="Application" />
     <movie input="" />
-    <movie path="bin\calculator.swf" />
-    <movie fps="31" />
+    <movie path="bin\singleton.swf" />
+    <movie fps="30" />
     <movie width="500" />
-    <movie height="500" />
-    <movie version="19" />
+    <movie height="400" />
+    <movie version="18" />
     <movie minorVersion="0" />
     <movie platform="Flash Player" />
     <movie background="#FFFFFF" />
@@ -16,6 +16,8 @@
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src" />
+    <class path="..\as3\tools" />
+    <class path="..\as3\lib" />
   </classpaths>
   <!-- Build options -->
   <build>
@@ -28,7 +30,7 @@
     <option locale="" />
     <option loadConfig="" />
     <option optimize="True" />
-    <option omitTraces="False" />
+    <option omitTraces="True" />
     <option showActionScriptWarnings="True" />
     <option showBindingWarnings="True" />
     <option showInvalidCSS="True" />
@@ -52,8 +54,7 @@
   </includeLibraries>
   <!-- SWC Libraries -->
   <libraryPaths>
-    <element path="lib\starling.swc" />
-    <element path="lib\starlingMVC.swc" />
+    <element path="view.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
