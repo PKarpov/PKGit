@@ -5,7 +5,12 @@ package stat
 	import flash.events.MouseEvent;
 	import flash.geom.Point;
 	import flash.text.TextField;
+<<<<<<< HEAD
 	import tools.Utils;
+=======
+	import MyButton;
+	//import tools.Utils;
+>>>>>>> 9878e0d079a355604bad3073ad97dc23ea560cc7
 	
 	/**
 	 * ...
@@ -27,15 +32,27 @@ package stat
 			addChild(Utils.newTextField(0, (_y-10), 'TestStaticVar'));
 			addChild(Utils.drawNewLine(new Point(110, _y), new Point(310, _y)));
 			_y += 20;
+<<<<<<< HEAD
 			Button0 = new MyButton('2', 'NewStatVar', 60, (_y+10));
 			Text0 = Utils.newTextField(110, _y, '00');
 			Text1 = Utils.newTextField(180, _y, '00');
+=======
+			Text0 = Utils.newTextField(110, _y);
+			Text1 = Utils.newTextField(310, _y);
+			_y += 10;
+			Button0 = new MyButton('2', 'NewStatVar', 60, (_y));
+			Button1 = new MyButton('0', 'ClassA', 180, _y);
+			Button2 = new MyButton('1', 'ClassB', 260, _y);
+>>>>>>> 9878e0d079a355604bad3073ad97dc23ea560cc7
 			addChild(Button0);
 			addChild(Text0);
 			addChild(Text1);
 			_y += 40;
+<<<<<<< HEAD
 			Button1 = new MyButton('0', 'ClassA', 60, _y);
 			Button2 = new MyButton('1', 'ClassB', 150, _y);
+=======
+>>>>>>> 9878e0d079a355604bad3073ad97dc23ea560cc7
 			addChild(Button1);
 			addChild(Button2);
 			Button0.addEventListener(MouseEvent.CLICK, mouseClick0);
@@ -43,6 +60,10 @@ package stat
 			Button2.addEventListener(MouseEvent.CLICK, mouseClick12);
 			obj0 = new NewClassA('ClassA');
 			obj1 = new NewClassB('ClassB');
+<<<<<<< HEAD
+=======
+			mouseClick0(null);
+>>>>>>> 9878e0d079a355604bad3073ad97dc23ea560cc7
 		}
 		
 		private function mouseClick12(e:Event):void 

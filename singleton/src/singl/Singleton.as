@@ -9,7 +9,11 @@ package singl
 	import flash.text.TextField;
 	import flash.text.TextFieldAutoSize;
 	import flash.utils.Timer;
+<<<<<<< HEAD
 	import tools.Utils;
+=======
+	import Utils;
+>>>>>>> 9878e0d079a355604bad3073ad97dc23ea560cc7
 	public class Singleton extends Sprite
 	{
 		private static var _instance:Singleton;
@@ -33,9 +37,18 @@ package singl
 		private function initAlertWin():void 
 		{
 			_alert = Utils.drawNewAlert();
+<<<<<<< HEAD
 			_msg = TextField(_alert.getChildByName('msg'));
 			_alert.x = 20;
 			_alert.y = 140;
+=======
+			_msg = Utils.newTextField(0,5);
+			_msg.width = 300;
+            _msg.autoSize = TextFieldAutoSize.CENTER;
+			_alert.addChild(_msg);
+			_alert.x = 40;
+			_alert.y = 100;
+>>>>>>> 9878e0d079a355604bad3073ad97dc23ea560cc7
 			_alert.visible = false;
 			addChild(_alert);
 			_tm.addEventListener(TimerEvent.TIMER, startDisappear)

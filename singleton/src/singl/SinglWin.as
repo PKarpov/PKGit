@@ -5,7 +5,12 @@ package singl
 	import flash.events.MouseEvent;
 	import flash.geom.Point;
 	import flash.text.TextField;
+<<<<<<< HEAD
 	import tools.Utils;
+=======
+	import MyButton;
+	//import tools.Utils;
+>>>>>>> 9878e0d079a355604bad3073ad97dc23ea560cc7
 	
 	/**
 	 * ...
@@ -27,10 +32,17 @@ package singl
 			addChild(Utils.newTextField(0, (_y-10), 'SingleTon'));
 			addChild(Utils.drawNewLine(new Point(110, _y), new Point(310, _y)));
 			_y += 30;
+<<<<<<< HEAD
 			Button0 = new MyButton('Все отлично!!!', 'Alert1', 50, _y);
 			Button1 = new MyButton('Полный писец!', 'Alert2', 130, _y);
 			Button2 = new MyButton('../sound/song2.mp3', 'Song1', 230, _y);
 			Button3 = new MyButton('../sound/song3.mp3', 'Song2', 310, _y);
+=======
+			Button0 = new MyButton('Все отлично!!!', 'Alert1', 60, _y);
+			Button1 = new MyButton('Полный писец!', 'Alert2', 140, _y);
+			Button2 = new MyButton('../sound/song2.mp3', 'Song1', 240, _y);
+			Button3 = new MyButton('../sound/song3.mp3', 'Song2', 320, _y);
+>>>>>>> 9878e0d079a355604bad3073ad97dc23ea560cc7
 			addChild(Button0);
 			addChild(Button1);
 			addChild(Button2);
