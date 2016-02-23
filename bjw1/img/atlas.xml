@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="atlas.png">
+ <SubTexture name="i00" x="0" y="0" width="40" height="40"/>;
+ <SubTexture name="i01" x="40" y="0" width="40" height="40"/>;
+ <SubTexture name="i02" x="80" y="0" width="40" height="40"/>;
+ <SubTexture name="i03" x="120" y="0" width="40" height="40"/>;
+ <SubTexture name="i04" x="160" y="0" width="40" height="40"/>;
+ <SubTexture name="i05" x="0" y="52" width="140" height="24"/>;
+ <SubTexture name="i06" x="140" y="52" width="140" height="24"/>;
+ <SubTexture name="i07" x="205" y="0" width="340" height="50"/>;
+</TextureAtlas>
