@@ -32,16 +32,16 @@
     </define>
     <verbose-stacktraces>true</verbose-stacktraces>
     <source-path append="true">
-      <path-element>D:\!!!\bjw1\src</path-element>
+      <path-element>D:\PKGit\bjw1\src</path-element>
       <path-element>C:\Program Files (x86)\FlashDevelop\Library\AS3\classes</path-element>
     </source-path>
     <library-path append="true">
-      <path-element>D:\!!!\bjw1\lib\starling.swc</path-element>
-      <path-element>D:\!!!\bjw1\lib\game.swc</path-element>
+      <path-element>D:\PKGit\bjw1\lib\starling.swc</path-element>
+      <path-element>D:\PKGit\bjw1\lib\game.swc</path-element>
     </library-path>
   </compiler>
   <file-specs>
-    <path-element>D:\!!!\bjw1\src\Main.as</path-element>
+    <path-element>D:\PKGit\bjw1\src\Main.as</path-element>
   </file-specs>
   <default-background-color>#FFFFFF</default-background-color>
   <default-frame-rate>31</default-frame-rate>
